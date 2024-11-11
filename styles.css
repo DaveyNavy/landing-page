@@ -25,3 +25,39 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.banner {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    gap: 24px;
+}
+
+.hero-text {
+    color: #f9fAf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.banner-info, .banner-image {
+    flex: 1;
+}
+
+.banner-image {
+    max-width: 500px;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 15px;
+    color: #f9fAf8;
+    font-weight: bold;
+    font-size: 12px;
+}
