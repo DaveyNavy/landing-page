@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', 'Times New Roman', serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 48px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9fAf8;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
