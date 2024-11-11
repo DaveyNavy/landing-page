@@ -76,6 +76,8 @@ button {
 
 .content {
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 64px;
 }
 
 .content h1 {
@@ -100,4 +102,30 @@ button {
 
 .card p {
     width: 100px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5e7eb;
+    padding: 48px 0px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+}
+
+.testimonial-author {
+    align-self: last baseline;
 }
