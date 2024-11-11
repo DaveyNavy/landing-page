@@ -129,3 +129,29 @@ button {
 .testimonial-author {
     align-self: last baseline;
 }
+
+.end {
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.closing {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 50%;
+    padding: 16px 48px;
+    color: #e5e7eb;
+}
+
+.info {
+    flex: 3;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-self: center;
+}
